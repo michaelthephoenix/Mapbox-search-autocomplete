@@ -22,6 +22,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "mapboxApiKey": "sk.eyJ1IjoibWljaGFlbC10aGUtc3dvcmRzbWFuIiwiYSI6ImNseWw5N2liMTB4aGQyaXIza2FuNDc3YmYifQ.RzqE4WxsdooiA5KHC_wSkg"
     }
+
   }
 }

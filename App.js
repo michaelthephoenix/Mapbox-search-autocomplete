@@ -1,12 +1,12 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import { StyleSheet, SafeAreaView } from 'react-native';
+import MapboxSearch from './components/MapboxSearch';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <SafeAreaView style={{flex: 1, marginTop: 50}}>
+      <MapboxSearch country="ug"/>
+    </SafeAreaView>
   );
 }
 
